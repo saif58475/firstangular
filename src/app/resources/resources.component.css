@@ -1,0 +1,60 @@
+.showcase {
+    transition: box-shadow .28s cubic-bezier(.4,0,.2,1);
+    box-shadow: 0 1px 4px #0a10145e;
+    border-radius: 4px;
+    margin-bottom: 48px;
+}
+h2{
+    border: 0.01rem solid black;
+    background-color: lightgrey;
+}
+.title{
+    border:0.02rem solid black;
+}
+
+
+  
+ 
+.btn-2:before,
+.btn-2:after
+{
+transition: .3s ease;
+}
+
+/* hthkvjer */
+
+a.animated-button.thar-three {
+    width: auto;
+	color: black;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 0.5px solid #5193c9;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+a.animated-button.thar-three:hover {
+	color: #000 !important;
+	background-color: transparent;
+	
+    text-decoration: none;
+}
+a.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #5193c9;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+}

@@ -1,0 +1,11 @@
+.onegrid{
+    padding: 10px;
+    border: 0.03em solid grey;
+    margin-bottom: 5px;
+}
+
+.onegrid:hover{
+    cursor: pointer;
+    color:brown;
+}
+    

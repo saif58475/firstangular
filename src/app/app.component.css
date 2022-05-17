@@ -1,0 +1,8 @@
+table tr td a {
+    color:white;
+}
+#footer-box{
+    box-sizing:border-box;
+    width: 100%;
+}
+
